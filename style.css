@@ -21,8 +21,8 @@ font-family: "Barlow";
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.625rem;
-    width: 150px;
-    height: 48px;
+    width: 9.375rem;
+    height: 3rem;
   
    display: flex;
    align-items: center;
@@ -129,11 +129,11 @@ font-family: "Barlow";
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 1.5625rem;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   width: 100%;
   justify-content: center;
   /* max-width: 27.5rem; */
-  padding-right: 24px;
+  padding-right: 1.5rem;
   /* max-width: 37.5rem; */
 }
 
@@ -145,13 +145,46 @@ font-family: "Barlow";
   /* padding-right: 24px; */
 }
 
+
+
 .phone {
-  max-width: 8.0625rem;
   width: 100%;
+  max-width: 8.0625rem;
+ 
+ 
   height: 12.0625rem;
   border-top-right-radius: 1.625rem;
   border-bottom-right-radius: 1.625rem;
+  width: 16.125rem;
+  background-image: url("img/mobile/img-phone-mob.jpg");
+  position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
+
+
+
+
+
+.color-phone{
+  background-color: #DF5F16;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+   max-width: 8.0625rem;
+   height: 12.0625rem;
+   border-top-right-radius: 1.625rem;
+  border-bottom-right-radius: 1.625rem;
+  mix-blend-mode: multiply;
+
+
+
+}
+
+
+
+
 
 .card-pic {
   width: 4.0625rem;
@@ -185,9 +218,9 @@ font-family: "Barlow";
 .card-cont > h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 28px;
-  width: 215px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  width: 13.4375rem;
   color: #162542;
 
   text-align: center;
@@ -200,8 +233,8 @@ font-family: "Barlow";
   text-align: center;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #7b8bad;
 }
 
@@ -213,8 +246,8 @@ font-family: "Barlow";
 
 .main-top-cont > h1 {
   font-weight: 900;
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 2.25rem;
   width: 15.9375rem;
   text-transform: uppercase;
   align-self: center;
@@ -227,8 +260,8 @@ font-family: "Barlow";
 .main-top-cont > p {
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   text-align: center;
   color: #7b8bad;
 }
@@ -239,13 +272,13 @@ font-family: "Barlow";
   justify-content: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #7b8bad;
 }
 
 .main {
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 .keyboard-tab {
@@ -262,14 +295,15 @@ font-family: "Barlow";
 
 @media screen and (min-width: 768px) {
 
+
   .nav-but {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.625rem;
-    width: 175px;
-    height: 58px;
+    width: 10.9375rem;
+    height: 3.625rem;
   
    display: flex;
    align-items: center;
@@ -300,12 +334,12 @@ font-family: "Barlow";
     display: block;
     /* height: 100%;
     width: 100%; */
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 1.5625rem;
+    border-bottom-left-radius: 1.5625rem;
     padding-left: 0;
-    width: 478px;
-    height: 425px;
-    margin-left: 69px;
+    width: 29.875rem;
+    height: 26.5625rem;
+    margin-left: 4.3125rem;
   }
 
   .header-cont {
@@ -317,8 +351,8 @@ font-family: "Barlow";
   .keyboard-cont {
     height: 100%;
     padding-top: 0;
-    width: 478px;
-    height: 425px;
+    width: 29.875rem;
+    height: 26.5625rem;
     overflow: hidden;
   }
 
@@ -341,8 +375,8 @@ font-family: "Barlow";
 
 
   .header-but{
-    width: 175px;
-    height: 58px;
+    width: 10.9375rem;
+    height: 3.625rem;
 
    display: flex;
    align-items: center;
@@ -362,7 +396,7 @@ font-family: "Barlow";
   }
 
   .header-p {
-    padding: 35px 0px;
+    padding: 2.1875rem 0rem;
   }
 
   .header-but-cont {
@@ -371,24 +405,44 @@ font-family: "Barlow";
 
   .glass-tab {
     display: block;
-    width: 445px;
-    height: 320px;
-    border-radius: 25px;
+    width: 27.8125rem;
+    height: 20rem;
+    border-radius: 1.5625rem;
   }
 
   .phone-tab {
     display: block;
-    width: 214px;
-    height: 320px;
-    border-radius: 25px;
+    width: 13.375rem;
+    height: 20rem;
+    border-radius: 1.5625rem;
+    background-image: url("img/desktop/desktop-pone-pic.jpg");
+    position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+ 
   }
+
+
+.color-tab{
+ 
+    background-color: #DF5F16;
+    position: absolute;
+    z-index: 1;
+   width: 13.375rem;
+   height: 20rem;
+   border-radius: 1.5625rem;
+  mix-blend-mode: multiply;
+  
+
+}
+
 
   .header-img-cont {
     width: 100%;
     max-width: 100%;
-    column-gap: 30px;
-    padding-right: 40px;
-    padding-left: 40px;
+    column-gap: 1.875rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     justify-content: center;
   }
 
@@ -398,22 +452,22 @@ font-family: "Barlow";
   }
 
   .main-top-cont > p {
-    width: 398px;
+    width: 24.875rem;
   }
 
   .main {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    column-gap: 112px;
-    padding: 0 40px;
+    column-gap: 7rem;
+    padding: 0 2.5rem;
     justify-content: center;
     width: 100%;
-    max-width: 738px;
+    max-width: 46.125rem;
   }
 
   .card-cont {
-    padding: 72px 0px;
+    padding: 4.5rem 0rem;
     margin: 0;
     display: flex;
     align-items: flex-start;
@@ -425,11 +479,11 @@ font-family: "Barlow";
 
   .card-cont > p {
     text-align: left;
-    width: 281px;
+    width: 17.5625rem;
   }
 
   .footer {
-    margin-top: 142px;
+    margin-top: 8.875rem;
   }
 
   .body {
@@ -464,16 +518,16 @@ font-family: "Barlow";
   .desktop-layout {
     display: grid;
     grid-template-columns: auto auto;
-    margin-top: 10px;
+    margin-top: .625rem;
   }
 
   .header {
     width: 100%;
-    max-width: 1440px;
+    max-width: 90rem;
   }
 
   .header-cont {
-    padding-left: 165px;
+    padding-left: 10.3125rem;
   }
 
   .main-top-cont {
@@ -481,17 +535,17 @@ font-family: "Barlow";
   }
 
   .main-top-cont > h1 {
-    width: 255px;
+    width: 15.9375rem;
   }
 
   .main-top-cont > p {
-    width: 255px;
+    width: 15.9375rem;
   }
 
   .main {
     padding: 0;
     display: flex;
-    column-gap: 30px;
+    column-gap: 1.875rem;
   }
 
   .glass-tab {
@@ -508,29 +562,35 @@ font-family: "Barlow";
 
   .phone-desk {
     display: block;
-    height: 480px;
-    border-radius: 25px;
-    margin-left: 165px;
-    mix-blend-mode: multiply;
+    height: 30rem;
+    width: 15.9375rem;
+    border-radius: 1.5625rem;
+    margin-left: 10.3125rem;
+    background-image: url("img/desktop/desktop-pone-pic.jpg");
+    position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+    
+
   }
 
   .glass-desk {
     display: block;
     width: 100%;
-    height: 480px;
-    border-radius: 25px;
+    height: 30rem;
+    border-radius: 1.5625rem;
   }
 
   .keyboard-desk {
     display: block;
-    height: 480px;
-    border-radius: 25px;
+    height: 30rem;
+    border-radius: 1.5625rem;
   }
 
   .keyboard-cont {
     max-width: none;
     display: flex;
-    column-gap:30px ;
+    column-gap:1.875rem ;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -539,38 +599,36 @@ font-family: "Barlow";
   .header-h1 {
     font-style: normal;
     font-weight: 900;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
 
   .header-p {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    width: 445px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    width: 27.8125rem;
   }
-
   .square {
     display: block;
-    width: 255px;
-    height: 220px;
+    width: 15.9375rem;
+    height: 13.75rem;
   }
 
   /* .squar-pic{
-
 
 
   
 } */
 
   .tab-layout {
-    padding-right: 125px;
+    padding-right: 7.8125rem;
     padding-left: 0;
   }
 
   .nav {
-    padding: 55px 165px 83px 165px;
+    padding: 3.4375rem 10.3125rem 5.1875rem 10.3125rem;
   }
 
 
@@ -583,17 +641,17 @@ font-family: "Barlow";
   }
 
 .main-top-cont{
-margin-left:125px ;
-margin-right:165px;
+margin-left:7.8125rem ;
+margin-right:10.3125rem;
 
 }
 
 .square-2 {
   display: block;
-  width: 255px;
+  width: 15.9375rem;
 
   position: absolute;
-  left: -121px;
+  left: -7.5625rem;
   bottom: 0rem;
 }
 
@@ -613,12 +671,22 @@ margin-right:165px;
 
 .card-cont > p{
 
-  width: 255px;
+  width: 15.9375rem;
 
 
 }
 
 
+
+  .color{
+    background-color: #DF5F16;
+    position: absolute;
+    z-index: 1;
+   width: 15.9375rem;
+   height: 30rem;
+   border-radius: 1.5625rem;
+  mix-blend-mode: multiply;
+  }
 
 
 }
